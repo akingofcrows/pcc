@@ -30,7 +30,7 @@ async def on_ready():                                                           
         bot_is_ready = True
         
         print("=" * 45)                                                             # login header : display name and ID
-        print(f"Loggedin as :    {yellow(bot.user.name)}")
+        print(f"Logged in as :    {yellow(bot.user.name)}")
         print(f"ID :              {yellow(bot.user.id)}")
         print("=" * 45)
 
