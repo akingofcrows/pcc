@@ -13,7 +13,7 @@ chdir(dname)
 system("cls")
 system("title Pop culture Collectibles")
 
-token = open("data/metadata/bot.token.txt", "r").read()                             # set up the bot obj. : token, desc., prefix, etc
+token = "OTc3NjIxMzQ1ODE2OTQ0Njgw.G6UE3h.Hi8qxFGnu4Cabs4gmzGO_4ygxxslc-VUEc4Xro"                             # set up the bot obj. : token, desc., prefix, etc
 description = open("data/metadata/description.txt", "r").read()
 bot = commands.Bot(command_prefix="=",
                    description=description,
